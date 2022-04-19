@@ -1,10 +1,12 @@
-import './App.css';
+import * as C from './App.styles';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-    </div>
+    <C.Container>
+      <C.Area>
+        <C.Header>Galeria de fotos</C.Header>
+      </C.Area>
+    </C.Container>
+      
   );
 }
-
-export default App;
